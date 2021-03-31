@@ -26,3 +26,30 @@ h1 {
     flex-wrap: wrap;
 }
 
+/* Styles for Cards created in JS file */
+
+.pokemon {
+    background: #458fe9;
+    width: 175px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.img-container {
+    background: #022546;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    color: #e9ecf0;
+    margin-bottom: 0;
+}
